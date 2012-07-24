@@ -1,0 +1,74 @@
+2012-07-23T19:07:15.5611500Z - 9784 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Tmp\nerddinner-77871\Branches\vNext\NerdDinner\App_Data\51Degrees.mobi.config'.
+2012-07-23T19:07:15.5671531Z - 9784 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Tmp\nerddinner-77871\Branches\vNext\NerdDinner\App_Data\51Degrees.mobi.config'.
+2012-07-23T19:07:15.5781518Z - 9784 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-07-23T19:07:16.1502245Z - 9784 - Debug - Initialising redirection module
+2012-07-23T19:07:16.1532254Z - 9784 - Debug - Initialising redirection module static fields.
+2012-07-23T19:07:16.1542251Z - 9784 - Debug - Initialising redirection module event handlers
+2012-07-23T19:07:18.8825724Z - 9784 - Info - Loaded 13925 devices using 11786 strings in 2660ms
+2012-07-23T19:07:20.5987941Z - 9784 - Debug - Initialising redirection module
+2012-07-23T19:07:20.5987941Z - 9784 - Debug - Initialising redirection module event handlers
+2012-07-23T19:07:20.5997920Z - 9784 - Debug - Initialising redirection module
+2012-07-23T19:07:20.5997920Z - 9784 - Debug - Initialising redirection module event handlers
+2012-07-23T19:07:20.6017920Z - 9784 - Debug - Initialising redirection module
+2012-07-23T19:07:20.6017920Z - 9784 - Debug - Initialising redirection module event handlers
+2012-07-23T19:07:24.6003013Z - 9784 - Debug - Initialising redirection module
+2012-07-23T19:07:24.6003013Z - 9784 - Debug - Initialising redirection module event handlers
+2012-07-23T19:07:24.6013010Z - 9784 - Debug - Initialising redirection module
+2012-07-23T19:07:24.6013010Z - 9784 - Debug - Initialising redirection module event handlers
+2012-07-23T19:07:27.4456631Z - 9784 - Debug - Initialising redirection module
+2012-07-23T19:07:27.4456631Z - 9784 - Debug - Initialising redirection module event handlers
+2012-07-23T19:08:14.5646804Z - 9784 - Debug - Disposing Redirection Module
+2012-07-23T19:08:44.5774932Z - 9784 - Debug - Disposing Redirection Module
+2012-07-23T19:09:14.5773469Z - 9784 - Debug - Disposing Redirection Module
+2012-07-23T19:09:44.5922242Z - 9784 - Debug - Disposing Redirection Module
+2012-07-23T19:10:14.5939565Z - 9784 - Debug - Disposing Redirection Module
+2012-07-23T19:10:44.6048605Z - 9784 - Debug - Disposing Redirection Module
+2012-07-23T19:20:30.5083474Z - 9784 - Debug - Disposing Redirection Module
+2012-07-24T17:16:50.2124637Z - 5388 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Workspaces\github\specflowdemo\NerdDinner\App_Data\51Degrees.mobi.config'.
+2012-07-24T17:16:50.2174635Z - 5388 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Workspaces\github\specflowdemo\NerdDinner\App_Data\51Degrees.mobi.config'.
+2012-07-24T17:16:50.2294642Z - 5388 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-07-24T17:16:50.8095394Z - 5388 - Debug - Initialising redirection module
+2012-07-24T17:16:50.8125403Z - 5388 - Debug - Initialising redirection module static fields.
+2012-07-24T17:16:50.8135401Z - 5388 - Debug - Initialising redirection module event handlers
+2012-07-24T17:16:53.5269236Z - 5388 - Info - Loaded 13925 devices using 11786 strings in 2645ms
+2012-07-24T17:16:55.1920956Z - 5388 - Debug - Initialising redirection module
+2012-07-24T17:16:55.1920956Z - 5388 - Debug - Initialising redirection module event handlers
+2012-07-24T17:17:00.9868336Z - 5388 - Debug - Initialising redirection module
+2012-07-24T17:17:00.9868336Z - 5388 - Debug - Initialising redirection module event handlers
+2012-07-24T17:17:05.0863583Z - 5388 - Debug - Initialising redirection module
+2012-07-24T17:17:05.0863583Z - 5388 - Debug - Initialising redirection module event handlers
+2012-07-24T17:17:49.2790302Z - 5388 - Debug - Disposing Redirection Module
+2012-07-24T17:18:19.2928451Z - 5388 - Debug - Disposing Redirection Module
+2012-07-24T17:18:49.2966811Z - 5388 - Debug - Disposing Redirection Module
+2012-07-24T17:34:13.2692462Z - 5388 - Debug - Disposing Redirection Module
+2012-07-24T17:34:14.8764518Z - 5388 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Workspaces\github\specflowdemo\NerdDinner\App_Data\51Degrees.mobi.config'.
+2012-07-24T17:34:14.8814527Z - 5388 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Workspaces\github\specflowdemo\NerdDinner\App_Data\51Degrees.mobi.config'.
+2012-07-24T17:34:14.8914505Z - 5388 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-07-24T17:34:15.4235208Z - 5388 - Debug - Initialising redirection module
+2012-07-24T17:34:15.4275357Z - 5388 - Debug - Initialising redirection module static fields.
+2012-07-24T17:34:15.4275357Z - 5388 - Debug - Initialising redirection module event handlers
+2012-07-24T17:34:18.2528806Z - 5388 - Info - Loaded 13925 devices using 11786 strings in 2772ms
+2012-07-24T17:34:21.4652875Z - 5388 - Debug - Initialising redirection module
+2012-07-24T17:34:21.4652875Z - 5388 - Debug - Initialising redirection module event handlers
+2012-07-24T17:34:21.4893240Z - 5388 - Debug - Initialising redirection module
+2012-07-24T17:34:21.4893240Z - 5388 - Debug - Initialising redirection module event handlers
+2012-07-24T17:34:23.2245136Z - 5388 - Debug - Initialising redirection module
+2012-07-24T17:34:23.2245136Z - 5388 - Debug - Initialising redirection module event handlers
+2012-07-24T17:34:23.9005978Z - 5388 - Debug - Initialising redirection module
+2012-07-24T17:34:23.9005978Z - 5388 - Debug - Initialising redirection module event handlers
+2012-07-24T17:34:23.9035981Z - 5388 - Debug - Initialising redirection module
+2012-07-24T17:34:23.9035981Z - 5388 - Debug - Initialising redirection module event handlers
+2012-07-24T17:34:23.9045985Z - 5388 - Debug - Initialising redirection module
+2012-07-24T17:34:23.9045985Z - 5388 - Debug - Initialising redirection module event handlers
+2012-07-24T17:34:23.9175995Z - 5388 - Debug - Initialising redirection module
+2012-07-24T17:34:23.9175995Z - 5388 - Debug - Initialising redirection module event handlers
+2012-07-24T17:34:23.9346018Z - 5388 - Debug - Initialising redirection module
+2012-07-24T17:34:23.9346018Z - 5388 - Debug - Initialising redirection module event handlers
+2012-07-24T17:35:13.7419465Z - 5388 - Debug - Disposing Redirection Module
+2012-07-24T17:35:43.7517796Z - 5388 - Debug - Disposing Redirection Module
+2012-07-24T17:36:13.7526277Z - 5388 - Debug - Disposing Redirection Module
+2012-07-24T17:36:43.7654825Z - 5388 - Debug - Disposing Redirection Module
+2012-07-24T17:37:13.7782940Z - 5388 - Debug - Disposing Redirection Module
+2012-07-24T17:37:43.7800862Z - 5388 - Debug - Disposing Redirection Module
+2012-07-24T17:38:13.7929250Z - 5388 - Debug - Disposing Redirection Module
+2012-07-24T17:38:43.7938021Z - 5388 - Debug - Disposing Redirection Module
