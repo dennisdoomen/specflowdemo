@@ -1,11 +1,10 @@
-﻿Feature: Addition
-	In order to avoid silly mistakes
-	As a math idiot
-	I want to be told the sum of two numbers
+﻿Feature: Hosting Dinners
+	In order to increase my business network
+	As a entrepeneur
+	I want to host dinners with interesting people from the community
 
 @mytag
-Scenario: Add two numbers
-	Given I have entered 50 into the calculator
-	And I have entered 70 into the calculator
-	When I press add
-	Then the result should be 120 on the screen
+Scenario: Attempting to host a dinner without being logged on
+	Given I am not logged on
+	When I try to host a dinner
+	Then I should be forced to log on first
