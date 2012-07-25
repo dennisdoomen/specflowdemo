@@ -53,13 +53,23 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Features\Hosting Dinners.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Hosting Dinners.feature</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controls\" />
-    <Folder Include="Features\" />
     <Folder Include="Pages\" />
     <Folder Include="StepDefinitions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Features\Hosting Dinners.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>Hosting Dinners.feature.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
