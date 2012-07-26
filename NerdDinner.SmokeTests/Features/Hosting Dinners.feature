@@ -4,7 +4,7 @@
 	I want to host dinners with interesting people from the community
 
 @mytag
-Scenario: Attempting to host a dinner without being logged on
-	Given I am not logged on
-	When I try to host a dinner
-	Then I should be forced to log on first
+Scenario: Attempting to host a dinner as a anonymous user
+	Given an anonymous user
+	When you want to host a dinner
+	Then you should be required to log on first

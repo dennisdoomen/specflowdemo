@@ -1,24 +1,28 @@
-﻿using TechTalk.SpecFlow;
+﻿using System.Configuration;
+using NerdDinner.SmokeTests.Pages;
+using TechTalk.SpecFlow;
 
 namespace NerdDinner.SmokeTests.StepDefinitions
 {
     [Binding]
-    public class StepDefinitions
+    public class StepDefinitions : WatiNStepDefinitions
     {
-        [Given(@"I am not logged on")]
-        public void GivenIAmNotLoggedOn()
+        [Given(@"an anonymous user")]
+        public void GivenAnAnonymousUser()
+        {
+            Browser.GoTo(ConfigurationSettings.AppSettings["SpecFlowRootUrl"]);
+            Browser.Page<HomePage>().LogOff();
+        }
+
+        [When(@"you want to host a dinner")]
+        public void WhenYouWantToHostADinner()
+        {
+        }
+
+        [Then(@"you should be required to log on first")]
+        public void ThenYouShouldBeRequiredToLogOnFirst()
         {
             
-        }
-
-        [When(@"I try to host a dinner")]
-        public void WhenITryToHostADinner()
-        {
-        }
-
-        [Then(@"I should be forced to log on first")]
-        public void ThenIShouldBeForcedToLogOnFirst()
-        {
         }
     }
 }

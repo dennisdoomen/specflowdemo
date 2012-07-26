@@ -70,21 +70,21 @@ namespace NerdDinner.SmokeTests.Features
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Attempting to host a dinner without being logged on")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Attempting to host a dinner as a anonymous user")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Hosting Dinners")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
-        public virtual void AttemptingToHostADinnerWithoutBeingLoggedOn()
+        public virtual void AttemptingToHostADinnerAsAAnonymousUser()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Attempting to host a dinner without being logged on", new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Attempting to host a dinner as a anonymous user", new string[] {
                         "mytag"});
 #line 7
 this.ScenarioSetup(scenarioInfo);
 #line 8
- testRunner.Given("I am not logged on");
+ testRunner.Given("an anonymous user");
 #line 9
- testRunner.When("I try to host a dinner");
+ testRunner.When("you want to host a dinner");
 #line 10
- testRunner.Then("I should be forced to log on first");
+ testRunner.Then("you should be required to log on first");
 #line hidden
             this.ScenarioCleanup();
         }

@@ -2,7 +2,7 @@ using System.Runtime.InteropServices;
 using TechTalk.SpecFlow;
 using WatiN.Core;
 
-namespace Shared.SmokeTests
+namespace NerdDinner.SmokeTests.StepDefinitions
 {
     public abstract class WatiNStepDefinitions : Steps
     {
