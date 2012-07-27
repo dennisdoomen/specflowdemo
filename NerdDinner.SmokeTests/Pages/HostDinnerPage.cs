@@ -1,9 +1,10 @@
+using System;
 using WatiN.Core;
 using WatiN.Extensions;
 
 namespace NerdDinner.SmokeTests.Pages
 {
-    internal class HomePage : Page
+    internal class HostDinnerPage : Page
     {
         /// <summary>
         /// Verifies that the document represents a Url that matches the page metadata.
@@ -20,31 +21,26 @@ namespace NerdDinner.SmokeTests.Pages
         /// <param name="url">The document url to verify, not null</param><param name="errorReporter">The error reporter to invoke is the document's properties fail verification</param>
         protected override void VerifyDocumentUrl(string url, ErrorReporter errorReporter)
         {
-            if (!url.EndsWith("/"))
+            if (!url.EndsWith("Dinners/Create"))
             {
-                errorReporter("This isn't the home page");
+                errorReporter("This isn't the dinner hosting page");
             }
         }
 
-        public void LogOff()
+        public void Save()
         {
-            Link logOffLink = Document.Link(Find.ByUrl(url => url.ToLower().Contains("logoff")));
-            if (logOffLink.Exists)
-            {
-                logOffLink.Click();
-            }
+            Document.Click<Button>(Find.By("type", "submit"));  
         }
 
-        public void HostDinner()
+        public void FillInTheDetails()
         {
-            Link hostDinner = Document.Get<Link>(Find.ByUrl(url => url.ToLower().EndsWith("create")));
-            hostDinner.Click(); 
-        }
+            DateTime timeAndDate = DateTime.Now.AddDays(3);
 
-        public void InitiateLogOn()
-        {
-            LogOff();
-            Document.Link(Find.ByUrl(url => url.ToLower().Contains("logon"))).Click();
+            Document.SetText("Title", "Dinner at " + timeAndDate);
+            Document.SetText("Description", "Dinner with friends");
+            Document.SetText("HostedBy", "Dennis");
+            Document.SetText("ContactPhone", "070-1234567");
+            Document.SetText("EventDate", timeAndDate.ToString("MM/dd/yyyy hh:mm"));
         }
     }
 }

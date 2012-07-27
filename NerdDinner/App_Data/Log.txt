@@ -571,3 +571,139 @@
 2012-07-27T12:25:03.9567814Z - 8324 - Debug - Disposing Redirection Module
 2012-07-27T12:25:33.9716516Z - 8324 - Debug - Disposing Redirection Module
 2012-07-27T12:26:03.9855067Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T12:34:28.1596258Z - 8324 - Debug - Initialising redirection module
+2012-07-27T12:34:28.1596258Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T12:35:04.1111715Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T13:10:06.0857242Z - 8324 - Debug - Initialising redirection module
+2012-07-27T13:10:06.0857242Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T13:10:06.1287298Z - 8324 - Debug - Initialising redirection module
+2012-07-27T13:10:06.1287298Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T13:10:06.1287298Z - 8324 - Debug - Initialising redirection module
+2012-07-27T13:10:06.1287298Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T13:10:06.1297307Z - 8324 - Debug - Initialising redirection module
+2012-07-27T13:10:06.1297307Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T13:10:06.1417321Z - 8324 - Debug - Initialising redirection module
+2012-07-27T13:10:06.1417321Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T13:11:34.8270211Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T13:12:04.8270305Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T13:12:34.8417426Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T13:13:04.8545032Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T13:13:34.8643393Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T13:19:58.4771647Z - 8324 - Debug - Initialising redirection module
+2012-07-27T13:19:58.4771647Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T13:20:00.2213589Z - 8324 - Debug - Initialising redirection module
+2012-07-27T13:20:00.2213589Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T13:20:00.2223592Z - 8324 - Debug - Initialising redirection module
+2012-07-27T13:20:00.2223592Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T13:20:00.2223592Z - 8324 - Debug - Initialising redirection module
+2012-07-27T13:20:00.2223592Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T13:20:00.2393615Z - 8324 - Debug - Initialising redirection module
+2012-07-27T13:20:00.2393615Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T13:20:34.9809071Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T13:21:04.9816226Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T13:21:34.9824576Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T13:22:04.9843469Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T13:22:34.9941226Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T13:30:24.3328085Z - 8324 - Debug - Initialising redirection module
+2012-07-27T13:30:24.3328085Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T13:30:24.3358100Z - 8324 - Debug - Initialising redirection module
+2012-07-27T13:30:24.3358100Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T13:30:24.3378100Z - 8324 - Debug - Initialising redirection module
+2012-07-27T13:30:24.3378100Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T13:30:57.2670018Z - 8324 - Debug - Initialising redirection module
+2012-07-27T13:30:57.2670018Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T13:31:35.1309080Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T13:32:05.1456847Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T13:32:35.1465814Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T13:33:05.1583221Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T13:35:39.1719219Z - 8324 - Debug - Initialising redirection module
+2012-07-27T13:35:39.1719219Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T13:35:42.9153651Z - 8324 - Debug - Initialising redirection module
+2012-07-27T13:35:42.9153651Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T13:35:42.9373678Z - 8324 - Debug - Initialising redirection module
+2012-07-27T13:35:42.9373678Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T13:36:35.2100244Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T13:37:05.2219315Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T13:37:35.2327081Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T13:37:40.9633925Z - 8324 - Debug - Initialising redirection module
+2012-07-27T13:37:40.9633925Z - 8324 - Debug - Initialising redirection module
+2012-07-27T13:37:40.9633925Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T13:37:40.9633925Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T13:37:40.9653925Z - 8324 - Debug - Initialising redirection module
+2012-07-27T13:37:40.9653925Z - 8324 - Debug - Initialising redirection module
+2012-07-27T13:37:40.9653925Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T13:37:40.9653925Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T13:37:40.9773944Z - 8324 - Debug - Initialising redirection module
+2012-07-27T13:37:40.9773944Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T13:37:40.9773944Z - 8324 - Debug - Initialising redirection module
+2012-07-27T13:37:40.9773944Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T13:39:05.2561417Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T13:39:35.2709906Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T13:40:05.2848847Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T13:40:35.2986309Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T13:41:05.3134519Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T13:41:35.3143018Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T13:44:32.8228225Z - 8324 - Debug - Initialising redirection module
+2012-07-27T13:44:32.8228225Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T13:44:32.8238228Z - 8324 - Debug - Initialising redirection module
+2012-07-27T13:44:32.8238228Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T13:44:32.8248225Z - 8324 - Debug - Initialising redirection module
+2012-07-27T13:44:32.8248225Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T13:44:32.8288232Z - 8324 - Debug - Initialising redirection module
+2012-07-27T13:44:32.8288232Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T13:44:45.1683945Z - 8324 - Debug - Initialising redirection module
+2012-07-27T13:44:45.1683945Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T13:45:35.3818242Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T13:45:35.5158030Z - 8324 - Debug - Initialising redirection module
+2012-07-27T13:45:35.5158030Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T13:46:35.3814410Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T13:47:05.3832794Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T13:47:35.3941027Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T13:47:47.1785640Z - 8324 - Debug - Initialising redirection module
+2012-07-27T13:47:47.1795649Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T13:47:47.1785640Z - 8324 - Debug - Initialising redirection module
+2012-07-27T13:47:47.1795649Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T13:47:51.8421583Z - 8324 - Debug - Initialising redirection module
+2012-07-27T13:47:51.8421583Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T13:47:51.8421583Z - 8324 - Debug - Initialising redirection module
+2012-07-27T13:47:51.8421583Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T13:48:35.4097571Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T13:49:05.4226450Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T13:49:35.4364433Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T13:50:05.4382887Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T13:50:35.4540284Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T13:51:05.4668553Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T14:01:10.8028666Z - 8324 - Debug - Initialising redirection module
+2012-07-27T14:01:10.8028666Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T14:01:10.8368712Z - 8324 - Debug - Initialising redirection module
+2012-07-27T14:01:10.8368712Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T14:01:10.8388706Z - 8324 - Debug - Initialising redirection module
+2012-07-27T14:01:10.8388706Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T14:01:10.8458722Z - 8324 - Debug - Initialising redirection module
+2012-07-27T14:01:10.8458722Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T14:02:05.6309512Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T14:02:35.6457107Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T14:03:05.6465884Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T14:03:35.6584269Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T14:12:10.3338252Z - 8324 - Debug - Initialising redirection module
+2012-07-27T14:12:10.3338252Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T14:12:11.0359146Z - 8324 - Debug - Initialising redirection module
+2012-07-27T14:12:11.0359146Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T14:12:11.0379152Z - 8324 - Debug - Initialising redirection module
+2012-07-27T14:12:11.0379152Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T14:12:11.0439159Z - 8324 - Debug - Initialising redirection module
+2012-07-27T14:12:11.0439159Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T14:13:05.8109360Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T14:13:11.5966243Z - 8324 - Debug - Initialising redirection module
+2012-07-27T14:13:11.5966243Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T14:13:11.6066257Z - 8324 - Debug - Initialising redirection module
+2012-07-27T14:13:11.6066257Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T14:13:53.5579664Z - 8324 - Debug - Initialising redirection module
+2012-07-27T14:13:53.5579664Z - 8324 - Debug - Initialising redirection module event handlers
+2012-07-27T14:15:05.8542697Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T14:15:18.0867711Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T14:15:18.0867711Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T14:15:18.0867711Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T14:15:18.0867711Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T14:15:18.0867711Z - 8324 - Debug - Disposing Redirection Module
+2012-07-27T14:15:18.0867711Z - 8324 - Debug - Disposing Redirection Module

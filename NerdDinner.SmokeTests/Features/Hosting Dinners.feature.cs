@@ -88,6 +88,24 @@ this.ScenarioSetup(scenarioInfo);
 #line hidden
             this.ScenarioCleanup();
         }
+        
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Attempting to host a dinner as a registered user")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Hosting Dinners")]
+        public virtual void AttemptingToHostADinnerAsARegisteredUser()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Attempting to host a dinner as a registered user", ((string[])(null)));
+#line 12
+this.ScenarioSetup(scenarioInfo);
+#line 13
+ testRunner.Given("a registered user");
+#line 14
+ testRunner.When("you want to host a dinner");
+#line 15
+ testRunner.Then("you should be able to schedule a dinner");
+#line hidden
+            this.ScenarioCleanup();
+        }
     }
 }
 #pragma warning restore

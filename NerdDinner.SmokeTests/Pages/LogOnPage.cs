@@ -1,9 +1,9 @@
-using WatiN.Core;
+﻿using WatiN.Core;
 using WatiN.Extensions;
 
 namespace NerdDinner.SmokeTests.Pages
 {
-    internal class HomePage : Page
+    internal class LogOnPage : Page
     {
         /// <summary>
         /// Verifies that the document represents a Url that matches the page metadata.
@@ -20,31 +20,28 @@ namespace NerdDinner.SmokeTests.Pages
         /// <param name="url">The document url to verify, not null</param><param name="errorReporter">The error reporter to invoke is the document's properties fail verification</param>
         protected override void VerifyDocumentUrl(string url, ErrorReporter errorReporter)
         {
-            if (!url.EndsWith("/"))
+            if (!url.ToLower().Contains("/logon"))
             {
                 errorReporter("This isn't the home page");
             }
         }
 
-        public void LogOff()
+        public void LogOnAsRegisteredUser()
         {
-            Link logOffLink = Document.Link(Find.ByUrl(url => url.ToLower().Contains("logoff")));
-            if (logOffLink.Exists)
-            {
-                logOffLink.Click();
-            }
+            UsernameField.Value = "specflow";
+            PasswordField.Value = "specflow";
+
+            Document.Click<Button>(Find.ByClass("classiclogon"));
         }
 
-        public void HostDinner()
+        private TextField UsernameField
         {
-            Link hostDinner = Document.Get<Link>(Find.ByUrl(url => url.ToLower().EndsWith("create")));
-            hostDinner.Click(); 
+            get { return Document.Get<TextField>(Find.ById(id => id.ToLower().Contains("username"))); }
         }
 
-        public void InitiateLogOn()
+        private TextField PasswordField
         {
-            LogOff();
-            Document.Link(Find.ByUrl(url => url.ToLower().Contains("logon"))).Click();
+            get { return Document.Get<TextField>(Find.ById(id => id.ToLower().Contains("password"))); }
         }
     }
 }

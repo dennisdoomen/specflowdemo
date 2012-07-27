@@ -8,3 +8,8 @@ Scenario: Attempting to host a dinner as a anonymous user
 	Given an anonymous user
 	When you want to host a dinner
 	Then you should be required to log on first
+
+Scenario: Attempting to host a dinner as a registered user
+	Given a registered user
+	When you want to host a dinner
+	Then you should be able to schedule a dinner
