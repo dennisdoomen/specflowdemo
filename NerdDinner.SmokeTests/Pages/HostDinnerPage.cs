@@ -27,20 +27,22 @@ namespace NerdDinner.SmokeTests.Pages
             }
         }
 
-        public void Save()
-        {
-            Document.Click<Button>(Find.By("type", "submit"));  
-        }
-
         public void FillInTheDetails()
         {
             DateTime timeAndDate = DateTime.Now.AddDays(3);
 
             Document.SetText("Title", "Dinner at " + timeAndDate);
+            Document.Element("EventDate").SetAttributeValue("value", timeAndDate.ToString("dd/MM/yyyy hh:mm"));
             Document.SetText("Description", "Dinner with friends");
             Document.SetText("HostedBy", "Dennis");
             Document.SetText("ContactPhone", "070-1234567");
-            Document.SetText("EventDate", timeAndDate.ToString("MM/dd/yyyy hh:mm"));
+            Document.SetText("Address", "Haagse Schouwweg 8A, Leiden");
+            Document.SelectValue("Country", "Netherlands");
+        }
+
+        public void Save()
+        {
+            Document.Click<Button>(Find.By("type", "submit"));  
         }
     }
 }
