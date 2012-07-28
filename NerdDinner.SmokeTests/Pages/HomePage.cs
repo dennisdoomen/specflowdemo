@@ -1,3 +1,4 @@
+using System.Configuration;
 using WatiN.Core;
 using WatiN.Extensions;
 
@@ -5,6 +6,11 @@ namespace NerdDinner.SmokeTests.Pages
 {
     internal class HomePage : Page
     {
+        public static string Url
+        {
+            get { return ConfigurationManager.AppSettings["SpecFlowRootUrl"]; }
+        }
+
         /// <summary>
         /// Verifies that the document represents a Url that matches the page metadata.
         /// </summary>
@@ -28,7 +34,7 @@ namespace NerdDinner.SmokeTests.Pages
 
         public void LogOff()
         {
-            Link logOffLink = Document.Link(Find.ByUrl(url => url.ToLower().Contains("logoff")));
+            var logOffLink = Document.Link(Find.ByUrl(url => url.ToLower().Contains("logoff")));
             if (logOffLink.Exists)
             {
                 logOffLink.Click();
@@ -37,14 +43,20 @@ namespace NerdDinner.SmokeTests.Pages
 
         public void HostDinner()
         {
-            Link hostDinner = Document.Get<Link>(Find.ByUrl(url => url.ToLower().EndsWith("create")));
-            hostDinner.Click(); 
+            var hostDinner = Document.Get<Link>(Find.ByUrl(url => url.ToLower().EndsWith("create")));
+            hostDinner.Click();
         }
 
         public void InitiateLogOn()
         {
             LogOff();
             Document.Link(Find.ByUrl(url => url.ToLower().Contains("logon"))).Click();
+        }
+
+        public void ViewUpcomingDinners()
+        {
+            var parentDiv = Document.Div(Find.ByClass("search-text"));
+            parentDiv.Links.First().Click(); 
         }
     }
 }

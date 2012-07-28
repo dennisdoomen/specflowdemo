@@ -27,11 +27,20 @@ namespace NerdDinner.SmokeTests.Pages
             }
         }
 
-        public void FillInTheDetails()
+        public void ScheduleDinner()
         {
-            DateTime timeAndDate = DateTime.Now.AddDays(3);
+            DateTime dateAndTime = DateTime.Now.AddDays(3);
+            ScheduleDinner("Dinner at " + dateAndTime, dateAndTime);
+        }
+        
+        public void ScheduleDinner(string description)
+        {
+            ScheduleDinner(description, DateTime.Now.AddDays(3));
+        }
 
-            Document.SetText("Title", "Dinner at " + timeAndDate);
+        public void ScheduleDinner(string description, DateTime timeAndDate)
+        {
+            Document.SetText("Title", description);
             Document.Element("EventDate").SetAttributeValue("value", timeAndDate.ToString("dd/MM/yyyy hh:mm"));
             Document.SetText("Description", "Dinner with friends");
             Document.SetText("HostedBy", "Dennis");

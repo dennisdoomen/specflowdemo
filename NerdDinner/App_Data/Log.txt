@@ -892,3 +892,63 @@
 2012-07-27T20:21:18.9543020Z - 6384 - Debug - Disposing Redirection Module
 2012-07-27T20:21:48.9670679Z - 6384 - Debug - Disposing Redirection Module
 2012-07-27T20:22:18.9828597Z - 6384 - Debug - Disposing Redirection Module
+2012-07-28T16:42:52.4894738Z - 6384 - Debug - Disposing Redirection Module
+2012-07-28T17:31:44.4447120Z - 6720 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Workspaces\github\specflowdemo\NerdDinner\App_Data\51Degrees.mobi.config'.
+2012-07-28T17:31:44.4507133Z - 6720 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Workspaces\github\specflowdemo\NerdDinner\App_Data\51Degrees.mobi.config'.
+2012-07-28T17:31:44.4607140Z - 6720 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-07-28T17:31:44.9967832Z - 6720 - Debug - Initialising redirection module
+2012-07-28T17:31:45.0007839Z - 6720 - Debug - Initialising redirection module static fields.
+2012-07-28T17:31:45.0007839Z - 6720 - Debug - Initialising redirection module event handlers
+2012-07-28T17:31:47.7291306Z - 6720 - Info - Loaded 13925 devices using 11786 strings in 2653ms
+2012-07-28T17:31:49.3623413Z - 6720 - Debug - Initialising redirection module
+2012-07-28T17:31:49.3633410Z - 6720 - Debug - Initialising redirection module event handlers
+2012-07-28T17:31:49.3633410Z - 6720 - Debug - Initialising redirection module
+2012-07-28T17:31:49.3633410Z - 6720 - Debug - Initialising redirection module event handlers
+2012-07-28T17:31:49.5783663Z - 6720 - Debug - Initialising redirection module
+2012-07-28T17:31:49.5783663Z - 6720 - Debug - Initialising redirection module event handlers
+2012-07-28T17:32:43.1332394Z - 6720 - Debug - Disposing Redirection Module
+2012-07-28T17:33:13.1460462Z - 6720 - Debug - Disposing Redirection Module
+2012-07-28T17:33:43.1468547Z - 6720 - Debug - Disposing Redirection Module
+2012-07-28T18:15:14.1439300Z - 6720 - Debug - Initialising redirection module
+2012-07-28T18:15:14.1439300Z - 6720 - Debug - Initialising redirection module event handlers
+2012-07-28T18:15:14.1479301Z - 6720 - Debug - Initialising redirection module
+2012-07-28T18:15:14.1479301Z - 6720 - Debug - Initialising redirection module event handlers
+2012-07-28T18:15:14.1489304Z - 6720 - Debug - Initialising redirection module
+2012-07-28T18:15:14.1489304Z - 6720 - Debug - Initialising redirection module event handlers
+2012-07-28T18:16:12.5823692Z - 6720 - Debug - Initialising redirection module
+2012-07-28T18:16:12.5823692Z - 6720 - Debug - Initialising redirection module event handlers
+2012-07-28T18:16:43.9013556Z - 6720 - Debug - Disposing Redirection Module
+2012-07-28T18:16:52.1554072Z - 6720 - Debug - Initialising redirection module
+2012-07-28T18:16:52.1554072Z - 6720 - Debug - Initialising redirection module event handlers
+2012-07-28T18:17:37.2261444Z - 6720 - Debug - Initialising redirection module
+2012-07-28T18:17:37.2261444Z - 6720 - Debug - Initialising redirection module event handlers
+2012-07-28T18:17:37.2271447Z - 6720 - Debug - Initialising redirection module
+2012-07-28T18:17:37.2271447Z - 6720 - Debug - Initialising redirection module event handlers
+2012-07-28T18:18:13.9288639Z - 6720 - Debug - Disposing Redirection Module
+2012-07-28T18:18:43.9286791Z - 6720 - Debug - Disposing Redirection Module
+2012-07-28T18:19:13.9415362Z - 6720 - Debug - Disposing Redirection Module
+2012-07-28T18:19:43.9433219Z - 6720 - Debug - Disposing Redirection Module
+2012-07-28T18:20:13.9441108Z - 6720 - Debug - Disposing Redirection Module
+2012-07-28T18:20:43.9559498Z - 6720 - Debug - Disposing Redirection Module
+2012-07-28T19:11:07.8428589Z - 6720 - Debug - Initialising redirection module
+2012-07-28T19:11:07.8428589Z - 6720 - Debug - Initialising redirection module event handlers
+2012-07-28T19:11:07.8778639Z - 6720 - Debug - Initialising redirection module
+2012-07-28T19:11:07.8778639Z - 6720 - Debug - Initialising redirection module event handlers
+2012-07-28T19:11:07.8828643Z - 6720 - Debug - Initialising redirection module
+2012-07-28T19:11:07.8828643Z - 6720 - Debug - Initialising redirection module
+2012-07-28T19:11:07.8828643Z - 6720 - Debug - Initialising redirection module event handlers
+2012-07-28T19:11:07.8828643Z - 6720 - Debug - Initialising redirection module event handlers
+2012-07-28T19:11:07.8848649Z - 6720 - Debug - Initialising redirection module
+2012-07-28T19:11:07.8848649Z - 6720 - Debug - Initialising redirection module event handlers
+2012-07-28T19:11:44.6946744Z - 6720 - Debug - Disposing Redirection Module
+2012-07-28T19:12:14.7094540Z - 6720 - Debug - Disposing Redirection Module
+2012-07-28T19:12:18.6948788Z - 6720 - Debug - Initialising redirection module
+2012-07-28T19:12:18.6948788Z - 6720 - Debug - Initialising redirection module event handlers
+2012-07-28T19:13:14.7230319Z - 6720 - Debug - Disposing Redirection Module
+2012-07-28T19:13:29.6519122Z - 6720 - Debug - Initialising redirection module
+2012-07-28T19:13:29.6519122Z - 6720 - Debug - Initialising redirection module event handlers
+2012-07-28T19:14:14.7356978Z - 6720 - Debug - Disposing Redirection Module
+2012-07-28T19:14:15.0566914Z - 6720 - Debug - Disposing Redirection Module
+2012-07-28T19:14:15.0566914Z - 6720 - Debug - Disposing Redirection Module
+2012-07-28T19:14:15.0566914Z - 6720 - Debug - Disposing Redirection Module
+2012-07-28T19:14:15.0566914Z - 6720 - Debug - Disposing Redirection Module
