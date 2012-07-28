@@ -6,25 +6,12 @@ using FluentAssertions;
 namespace NerdDinner.SmokeTests.StepDefinitions
 {
     [Binding]
-    public class StepDefinitions : WatiNStepDefinitions
+    public class DinnerStepDefinitions : WatiNStepDefinitions
     {
         [Before]
         public void GoToHomePage()
         {
             Browser.GoTo(ConfigurationManager.AppSettings["SpecFlowRootUrl"]);
-        }
-
-        [Given(@"an anonymous user")]
-        public void GivenAnAnonymousUser()
-        {
-            Browser.Page<HomePage>().LogOff();
-        }
-
-        [Given(@"a registered user")]
-        public void GivenARegisteredUser()
-        {
-            Browser.Page<HomePage>().InitiateLogOn();
-            Browser.Page<LogOnPage>().LogOnAsRegisteredUser();
         }
 
         [When(@"you want to host a dinner")]

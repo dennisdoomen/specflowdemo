@@ -81,6 +81,11 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Features\Finding Dinners.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Finding Dinners.feature</DependentUpon>
+    </Compile>
     <Compile Include="Features\Hosting Dinners.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -90,7 +95,8 @@
     <Compile Include="Pages\HostDinnerPage.cs" />
     <Compile Include="Pages\LogOnPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StepDefinitions\StepDefinitions.cs" />
+    <Compile Include="StepDefinitions\DinnerStepDefinitions.cs" />
+    <Compile Include="StepDefinitions\UserStepDefinitions.cs" />
     <Compile Include="StepDefinitions\WatiNStepDefinitions.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -98,6 +104,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Features\Finding Dinners.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>Finding Dinners.feature.cs</LastGenOutput>
+    </None>
     <None Include="Features\Hosting Dinners.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>Hosting Dinners.feature.cs</LastGenOutput>
