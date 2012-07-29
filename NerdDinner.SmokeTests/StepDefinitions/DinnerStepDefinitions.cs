@@ -15,6 +15,7 @@ namespace NerdDinner.SmokeTests.StepDefinitions
             Given("a registered user");
             Browser.Page<HomePage>().HostDinner();
             Browser.Page<HostDinnerPage>().ScheduleDinner(description);
+            Browser.Page<HostDinnerPage>().Save();
 
             lastSchedulerDinnerDescription = description;
         }
@@ -45,10 +46,13 @@ namespace NerdDinner.SmokeTests.StepDefinitions
             Browser.Page<HostDinnerPage>().Save();
         }
 
-        [Then(@"She should be able to find the dinner")]
+        [Then(@"(?:.*) should be able to find the dinner")]
         public void ThenSheShouldBeAbleToFindTheDinner()
         {
-            ScenarioContext.Current.Pending();
+            lastSchedulerDinnerDescription.Should().NotBeNull("because a dinner should have been scheduled");
+
+            var upcomingDinners = Browser.Page<DinnersPage>().UpcomingDinners;
+            upcomingDinners.Should().Contain(lastSchedulerDinnerDescription);
         }
     }
 }

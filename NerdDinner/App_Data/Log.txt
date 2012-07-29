@@ -952,3 +952,121 @@
 2012-07-28T19:14:15.0566914Z - 6720 - Debug - Disposing Redirection Module
 2012-07-28T19:14:15.0566914Z - 6720 - Debug - Disposing Redirection Module
 2012-07-28T19:14:15.0566914Z - 6720 - Debug - Disposing Redirection Module
+2012-07-29T19:42:14.1857710Z - 10472 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Workspaces\github\specflowdemo\NerdDinner\App_Data\51Degrees.mobi.config'.
+2012-07-29T19:42:14.1927720Z - 10472 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Workspaces\github\specflowdemo\NerdDinner\App_Data\51Degrees.mobi.config'.
+2012-07-29T19:42:14.2047740Z - 10472 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-07-29T19:42:15.2599089Z - 10472 - Debug - Initialising redirection module
+2012-07-29T19:42:15.2629087Z - 10472 - Debug - Initialising redirection module static fields.
+2012-07-29T19:42:15.2639090Z - 10472 - Debug - Initialising redirection module event handlers
+2012-07-29T19:42:18.0732820Z - 10472 - Info - Loaded 13925 devices using 11786 strings in 2722ms
+2012-07-29T19:42:18.4733475Z - 10472 - Debug - Initialising redirection module
+2012-07-29T19:42:18.4733475Z - 10472 - Debug - Initialising redirection module event handlers
+2012-07-29T19:42:18.4783177Z - 10472 - Debug - Initialising redirection module
+2012-07-29T19:42:18.4783177Z - 10472 - Debug - Initialising redirection module event handlers
+2012-07-29T19:42:18.5193233Z - 10472 - Debug - Initialising redirection module
+2012-07-29T19:42:18.5193233Z - 10472 - Debug - Initialising redirection module event handlers
+2012-07-29T19:42:25.6432297Z - 10472 - Debug - Initialising redirection module
+2012-07-29T19:42:25.6432297Z - 10472 - Debug - Initialising redirection module event handlers
+2012-07-29T19:42:25.6572317Z - 10472 - Debug - Initialising redirection module
+2012-07-29T19:42:25.6572317Z - 10472 - Debug - Initialising redirection module event handlers
+2012-07-29T19:43:13.9794465Z - 10472 - Debug - Disposing Redirection Module
+2012-07-29T19:43:43.9872453Z - 10472 - Debug - Disposing Redirection Module
+2012-07-29T19:44:14.0020326Z - 10472 - Debug - Disposing Redirection Module
+2012-07-29T19:44:44.0048629Z - 10472 - Debug - Disposing Redirection Module
+2012-07-29T19:45:14.0167008Z - 10472 - Debug - Disposing Redirection Module
+2012-07-29T19:48:21.5925455Z - 10472 - Debug - Initialising redirection module
+2012-07-29T19:48:21.5935453Z - 10472 - Debug - Initialising redirection module event handlers
+2012-07-29T19:48:22.4836562Z - 10472 - Debug - Initialising redirection module
+2012-07-29T19:48:22.4836562Z - 10472 - Debug - Initialising redirection module event handlers
+2012-07-29T19:48:22.4836562Z - 10472 - Debug - Initialising redirection module
+2012-07-29T19:48:22.4836562Z - 10472 - Debug - Initialising redirection module event handlers
+2012-07-29T19:48:22.4866566Z - 10472 - Debug - Initialising redirection module
+2012-07-29T19:48:22.4866566Z - 10472 - Debug - Initialising redirection module event handlers
+2012-07-29T19:48:22.5046586Z - 10472 - Debug - Initialising redirection module
+2012-07-29T19:48:22.5046586Z - 10472 - Debug - Initialising redirection module event handlers
+2012-07-29T19:49:14.0712672Z - 10472 - Debug - Disposing Redirection Module
+2012-07-29T19:49:39.6314771Z - 10472 - Debug - Initialising redirection module
+2012-07-29T19:49:39.6314771Z - 10472 - Debug - Initialising redirection module event handlers
+2012-07-29T19:50:14.0991550Z - 10472 - Debug - Disposing Redirection Module
+2012-07-29T19:50:44.1147289Z - 10472 - Debug - Disposing Redirection Module
+2012-07-29T19:50:48.2032063Z - 10472 - Debug - Initialising redirection module
+2012-07-29T19:50:48.2032063Z - 10472 - Debug - Initialising redirection module event handlers
+2012-07-29T19:50:48.2042066Z - 10472 - Debug - Initialising redirection module
+2012-07-29T19:50:48.2042066Z - 10472 - Debug - Initialising redirection module event handlers
+2012-07-29T19:50:48.2062072Z - 10472 - Debug - Initialising redirection module
+2012-07-29T19:50:48.2062072Z - 10472 - Debug - Initialising redirection module event handlers
+2012-07-29T19:50:48.2062072Z - 10472 - Debug - Initialising redirection module
+2012-07-29T19:50:48.2062072Z - 10472 - Debug - Initialising redirection module event handlers
+2012-07-29T19:51:44.1283251Z - 10472 - Debug - Disposing Redirection Module
+2012-07-29T19:52:44.1410058Z - 10472 - Debug - Disposing Redirection Module
+2012-07-29T19:53:14.1557860Z - 10472 - Debug - Disposing Redirection Module
+2012-07-29T19:53:15.6629783Z - 10472 - Debug - Initialising redirection module
+2012-07-29T19:53:15.6629783Z - 10472 - Debug - Initialising redirection module event handlers
+2012-07-29T19:53:15.6639786Z - 10472 - Debug - Initialising redirection module
+2012-07-29T19:53:15.6639786Z - 10472 - Debug - Initialising redirection module event handlers
+2012-07-29T19:54:14.1724347Z - 10472 - Debug - Disposing Redirection Module
+2012-07-29T19:54:44.1853440Z - 10472 - Debug - Disposing Redirection Module
+2012-07-29T19:55:14.2001183Z - 10472 - Debug - Disposing Redirection Module
+2012-07-29T19:55:44.2139011Z - 10472 - Debug - Disposing Redirection Module
+2012-07-29T19:55:57.5975927Z - 10472 - Debug - Initialising redirection module
+2012-07-29T19:55:57.5975927Z - 10472 - Debug - Initialising redirection module event handlers
+2012-07-29T19:55:57.6005930Z - 10472 - Debug - Initialising redirection module
+2012-07-29T19:55:57.6005930Z - 10472 - Debug - Initialising redirection module event handlers
+2012-07-29T19:55:57.6015933Z - 10472 - Debug - Initialising redirection module
+2012-07-29T19:55:57.6015933Z - 10472 - Debug - Initialising redirection module event handlers
+2012-07-29T19:56:43.7644698Z - 10472 - Debug - Initialising redirection module
+2012-07-29T19:56:43.7644698Z - 10472 - Debug - Initialising redirection module event handlers
+2012-07-29T19:57:14.2574220Z - 10472 - Debug - Disposing Redirection Module
+2012-07-29T19:57:44.2581896Z - 10472 - Debug - Disposing Redirection Module
+2012-07-29T19:58:44.2609287Z - 10472 - Debug - Disposing Redirection Module
+2012-07-29T19:59:03.3772425Z - 10472 - Debug - Initialising redirection module
+2012-07-29T19:59:03.3772425Z - 10472 - Debug - Initialising redirection module event handlers
+2012-07-29T19:59:03.3872438Z - 10472 - Debug - Initialising redirection module
+2012-07-29T19:59:03.3872438Z - 10472 - Debug - Initialising redirection module event handlers
+2012-07-29T19:59:40.3099439Z - 10472 - Debug - Disposing Redirection Module
+2012-07-29T19:59:40.3099439Z - 10472 - Debug - Disposing Redirection Module
+2012-07-29T19:59:40.3099439Z - 10472 - Debug - Disposing Redirection Module
+2012-07-29T19:59:40.3099439Z - 10472 - Debug - Disposing Redirection Module
+2012-07-29T19:59:40.3099439Z - 10472 - Debug - Disposing Redirection Module
+2012-07-29T19:59:40.3099439Z - 10472 - Debug - Disposing Redirection Module
+2012-07-29T20:00:56.4056308Z - 1368 - Debug - Getting 'fiftyOne/redirect' configuration from file 'C:\Workspaces\github\specflowdemo\NerdDinner\App_Data\51Degrees.mobi.config'.
+2012-07-29T20:00:56.4116321Z - 1368 - Debug - Getting 'fiftyOne/wurfl' configuration from file 'C:\Workspaces\github\specflowdemo\NerdDinner\App_Data\51Degrees.mobi.config'.
+2012-07-29T20:00:56.4206331Z - 1368 - Debug - Constructing MobileCapabilitiesProvider - Default
+2012-07-29T20:00:56.8976929Z - 1368 - Debug - Initialising redirection module
+2012-07-29T20:00:56.9016965Z - 1368 - Debug - Initialising redirection module static fields.
+2012-07-29T20:00:56.9016965Z - 1368 - Debug - Initialising redirection module event handlers
+2012-07-29T20:00:59.5520480Z - 1368 - Info - Loaded 13925 devices using 11786 strings in 2600ms
+2012-07-29T20:01:00.9882147Z - 1368 - Debug - Initialising redirection module
+2012-07-29T20:01:00.9882147Z - 1368 - Debug - Initialising redirection module
+2012-07-29T20:01:00.9882147Z - 1368 - Debug - Initialising redirection module event handlers
+2012-07-29T20:01:00.9882147Z - 1368 - Debug - Initialising redirection module event handlers
+2012-07-29T20:01:00.9882147Z - 1368 - Debug - Initialising redirection module
+2012-07-29T20:01:00.9882147Z - 1368 - Debug - Initialising redirection module
+2012-07-29T20:01:00.9882147Z - 1368 - Debug - Initialising redirection module event handlers
+2012-07-29T20:01:00.9882147Z - 1368 - Debug - Initialising redirection module event handlers
+2012-07-29T20:01:00.9882147Z - 1368 - Debug - Initialising redirection module
+2012-07-29T20:01:00.9882147Z - 1368 - Debug - Initialising redirection module event handlers
+2012-07-29T20:01:55.3751992Z - 1368 - Debug - Disposing Redirection Module
+2012-07-29T20:02:55.3868215Z - 1368 - Debug - Disposing Redirection Module
+2012-07-29T20:03:10.8027404Z - 1368 - Debug - Initialising redirection module
+2012-07-29T20:03:10.8027404Z - 1368 - Debug - Initialising redirection module event handlers
+2012-07-29T20:03:10.8047404Z - 1368 - Debug - Initialising redirection module
+2012-07-29T20:03:10.8047404Z - 1368 - Debug - Initialising redirection module event handlers
+2012-07-29T20:04:25.4062609Z - 1368 - Debug - Disposing Redirection Module
+2012-07-29T20:04:45.3527766Z - 1368 - Debug - Initialising redirection module
+2012-07-29T20:04:45.3527766Z - 1368 - Debug - Initialising redirection module event handlers
+2012-07-29T20:05:25.4269346Z - 1368 - Debug - Disposing Redirection Module
+2012-07-29T20:05:37.1453695Z - 1368 - Debug - Initialising redirection module
+2012-07-29T20:05:37.1453695Z - 1368 - Debug - Initialising redirection module event handlers
+2012-07-29T20:06:25.4566395Z - 1368 - Debug - Disposing Redirection Module
+2012-07-29T20:06:41.4405546Z - 1368 - Debug - Initialising redirection module
+2012-07-29T20:06:41.4405546Z - 1368 - Debug - Initialising redirection module event handlers
+2012-07-29T20:07:25.4741932Z - 1368 - Debug - Disposing Redirection Module
+2012-07-29T20:07:26.6783134Z - 1368 - Debug - Initialising redirection module
+2012-07-29T20:07:26.6783134Z - 1368 - Debug - Initialising redirection module event handlers
+2012-07-29T20:08:13.1952748Z - 1368 - Debug - Disposing Redirection Module
+2012-07-29T20:08:13.1952748Z - 1368 - Debug - Disposing Redirection Module
+2012-07-29T20:08:13.1952748Z - 1368 - Debug - Disposing Redirection Module
+2012-07-29T20:08:13.1952748Z - 1368 - Debug - Disposing Redirection Module
+2012-07-29T20:08:13.1952748Z - 1368 - Debug - Disposing Redirection Module
+2012-07-29T20:08:13.1952748Z - 1368 - Debug - Disposing Redirection Module

@@ -3,7 +3,6 @@
 	As a entrepeneur
 	I want to host dinners with interesting people from the community
 
-@mytag
 Scenario: Attempting to host a dinner as a anonymous user
 	Given an anonymous user
 	When you want to host a dinner
