@@ -1,4 +1,5 @@
 using System;
+using NerdDinner.SmokeTests.Controls;
 using WatiN.Core;
 using WatiN.Extensions;
 
@@ -6,6 +7,28 @@ namespace NerdDinner.SmokeTests.Pages
 {
     internal class HostDinnerPage : Page
     {
+        public string Country
+        {
+            get { return Document.Get<SelectList>("Country").SelectedItem; }
+            set { Document.Get<SelectList>("Country").Select(value); }
+        }
+
+        public string Address
+        {
+            get { return Document.GetText("Address"); }
+            set
+            {
+                Document.Get<TextField>("Address").Focus();
+                Document.SetText("Address", value);
+                Document.Get<TextField>("HostedBy").Focus();
+            }
+        }
+
+        public BingMap Map
+        {
+            get { return Document.Control<BingMap>(); }
+        }
+
         /// <summary>
         /// Verifies that the document represents a Url that matches the page metadata.
         /// </summary>
@@ -45,8 +68,8 @@ namespace NerdDinner.SmokeTests.Pages
             Document.SetText("Description", "Dinner with friends");
             Document.SetText("HostedBy", "Dennis");
             Document.SetText("ContactPhone", "070-1234567");
-            Document.SetText("Address", "Haagse Schouwweg 8A, Leiden");
-            Document.SelectValue("Country", "Netherlands");
+            Address = "Haagse Schouwweg 8A, Leiden";
+            Country = "Netherlands";
         }
 
         public void Save()

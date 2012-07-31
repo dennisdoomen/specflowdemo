@@ -81,6 +81,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Controls\BingMap.cs" />
     <Compile Include="Features\Finding Dinners.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -100,9 +101,7 @@
     <Compile Include="StepDefinitions\UserStepDefinitions.cs" />
     <Compile Include="StepDefinitions\WatiNStepDefinitions.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Controls\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="App.config" />
     <None Include="Features\Finding Dinners.feature">

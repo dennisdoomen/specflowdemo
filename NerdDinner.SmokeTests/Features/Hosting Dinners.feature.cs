@@ -104,6 +104,24 @@ this.ScenarioSetup(scenarioInfo);
 #line hidden
             this.ScenarioCleanup();
         }
+        
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Viewing the dinner location on a map")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Hosting Dinners")]
+        public virtual void ViewingTheDinnerLocationOnAMap()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Viewing the dinner location on a map", ((string[])(null)));
+#line 16
+this.ScenarioSetup(scenarioInfo);
+#line 17
+ testRunner.Given("I\'m planning a dinner");
+#line 18
+ testRunner.When("I specify an address for the dinner location");
+#line 19
+ testRunner.Then("I should be able to see the location on a map");
+#line hidden
+            this.ScenarioCleanup();
+        }
     }
 }
 #pragma warning restore

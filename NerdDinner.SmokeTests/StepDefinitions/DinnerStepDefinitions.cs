@@ -20,6 +20,13 @@ namespace NerdDinner.SmokeTests.StepDefinitions
             lastSchedulerDinnerDescription = description;
         }
 
+        [Given(@"I'm planning a dinner")]
+        public void GivenIMPlanningADinner()
+        {
+            Given("a registered user");
+            Browser.Page<HomePage>().HostDinner();
+        }
+
         [When(@"you want to host a dinner")]
         public void WhenYouWantToHostADinner()
         {
@@ -31,6 +38,19 @@ namespace NerdDinner.SmokeTests.StepDefinitions
         {
             Browser.GoTo(HomePage.Url);
             Browser.Page<HomePage>().ViewUpcomingDinners();
+        }
+
+        [When(@"I specify an address for the dinner location")]
+        public void WhenISpecifyAnAddressForTheDinnerLocation()
+        {
+            var hostDinnerPage = Browser.Page<HostDinnerPage>();
+            
+            hostDinnerPage.Country = "Netherlands";
+            hostDinnerPage.Address = "Haagse Schouwweg 8, The Hague";
+
+            var map = hostDinnerPage.Map;
+            map.SelectedAddress.Should().Contain("8, 2491 The Hague, Netherlands");
+
         }
 
         [Then(@"you should be required to log on first")]
@@ -53,6 +73,12 @@ namespace NerdDinner.SmokeTests.StepDefinitions
 
             var upcomingDinners = Browser.Page<DinnersPage>().UpcomingDinners;
             upcomingDinners.Should().Contain(lastSchedulerDinnerDescription);
+        }
+
+        [Then(@"I should be able to see the location on a map")]
+        public void ThenIShouldBeAbleToSeeTheLocationOnAMap()
+        {
+            
         }
     }
 }
