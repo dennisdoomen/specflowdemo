@@ -64,7 +64,7 @@ namespace NerdDinner.SmokeTests.Pages
         public void ScheduleDinner(string description, DateTime timeAndDate)
         {
             Document.SetText("Title", description);
-            Document.Element("EventDate").SetAttributeValue("value", timeAndDate.ToString("dd/MM/yyyy hh:mm"));
+            Document.Element("EventDate").SetAttributeValue("value", timeAndDate.ToString("MM/dd/yyyy hh:mm"));
             Document.SetText("Description", "Dinner with friends");
             Document.SetText("HostedBy", "Dennis");
             Document.SetText("ContactPhone", "070-1234567");
